@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+#wrapper-div{
+    width: 80%;
+    margin: auto;
+}
+
+#logo-nav-div{
+    margin-bottom : 5px;
+}
+
+.clearfix::after{
+    content : "";
+    display: block;
+    clear: both;
+}
+
+#logo-div{
+    width: 40%;
+    background-color: lightgrey;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    padding-left : 10px;
+}
+
+#nav-div{
+    width: 60%;
+    background-color: lightgrey;
+    height: 50px;
+    line-height: 50px;
+    float:left
+}
+
+#header-banner-div
+{
+    height: 200px;
+    background-color: lightgray;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#intro-textarea-div{
+    height: 150px;
+    background-color: lightgray;
+    line-height: 150px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#boxes-div{
+    margin-bottom : 5px;
+}
+
+/* #box1{
+    width: 30%;
+    background-color: lightgray;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float : left;
+   
+}
+
+#box2{
+    margin-left: 5%;
+    width: 30%;
+    background-color: lightgray;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float : left;
+    margin-right: 5%;
+}
+
+#box3{
+    width: 30%;
+    background-color: lightgray;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    float : left
+} */
+
+#boxes-div .box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.box{
+    width: 30%;
+    background-color: lightgray;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    float : left;
+}
+
+#footer-div
+{
+    height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    text-align: center;    
+}
